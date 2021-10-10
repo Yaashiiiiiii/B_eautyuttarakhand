@@ -14,10 +14,10 @@
     padding: 62px 103px 1px
 }
 #home::before{
-    height:480px;
+    height:465px;
 }
 #home p{
-    font-size: 13px;
+    font-size: 5px;
     color: rgb(252, 248, 5);
 }
 
@@ -26,7 +26,16 @@
     flex-direction: column;
 }
 #culture .box{
-    
+    border: 2px solid brown;
+    padding: 0px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #ffe6e3;
+}
+#culture .box img {
+    height: 62px;
+    display: block;
+    margin: auto;
 }
 
 
@@ -44,15 +53,32 @@
 #clients{
    flex-wrap: wrap;
 }
+#culture .box img {
+    height: 49px;
+    display: block;
+    margin: auto;
+}
 #clients img{
     width: 6px;
     padding: 6px;
 }
-/* utility section  */
- .h-primary{
-    font-size:2rem;
+/* food section  */
+#carouselExampleControlsNoTouching .carousel-item img {
+    height: 230px;
+    left: 15%;
 }
-.btn{
-    font-size: 13px;
-    padding: 4px 6px;
+#foodcard{
+    flex-direction: column;
+}
+/* utility section  */
+.h-primary{
+    font-size:1rem;
+}
+.h-secondary {
+    font-size: 1rem;
+    padding: 6px;
+}
+.btn {
+    font-size: 3px;
+    padding: 2px 3px;
 }
